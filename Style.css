@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "raleway", sans-serif;
+}
+
+
+.center{
+    display: flex;
+    max-width: 1100;
+    padding: 0 2%;
+    margin:0 auto;
+    flex-wrap: wrap;
+    
+}
+
+section.main{
+    background-image: url("imagens/FundoP1.jpeg");
+    image-resolution: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+
+.menu{display: flex; width: 100%;}
+
+.logo-menu{
+  position: relative;
+  width: 50%;}
+
+.logo-menu img{
+  bottom: 37px;
+  position: relative;
+  width: 49%;
+}
+
+.itens-menu{
+    width: 50%;
+    text-align: right;
+}
+
+
+
+.itens-menu a{
+    font-weight: bold;
+    font-size: 18px;
+    color:#be0517;
+    text-decoration: none;
+    display: inline-block;
+    margin:0 18px;
+}
+
+.itens-menu a:hover{
+    border-bottom: 1px solid #746f6f;
+}
+
+.itens-menu a.contact-btn{
+    background-color: #330202;
+    padding: 10px 10px;
+    border-radius: 22px;
+
+}
+
+.itens-menu a.contact-btn:hover{
+    border:0;
+}
+
+.bannercentro{
+  
+    display:block;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.bannercentro img{
+  
+  max-width: 100%;
+  padding: 100px;}
+
+/*parallax--teste*/
+
+.parallax{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('/imagens/perfuraçao1.jpeg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('imagens/industrial1.jpeg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('imagens/facial1.jpeg');
+    min-height:400px;
+  }
+
+ .section{
+    text-align:center;
+    padding:15px 80px;
+  }
+  
+  .section-light{
+    
+    background-image: url('imagens/FundoP1.jpeg');
+  }
+  
+  .section-dark{
+    background-image: url('imagens/FundoP1.jpeg');
+  }
+  .section-logo{
+      background-image:url('imagens/FundoP1.jpeg');
+      
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+
+  /*<!-Fim Parallax-->*/
+
